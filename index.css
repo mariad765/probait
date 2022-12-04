@@ -1,0 +1,188 @@
+body {
+	background-color: #F5F5F5;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: #F5F5F5;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: auto;
+
+}
+
+.connect_links {
+	padding: 12px;
+}
+
+/*#buton1
+{
+position: absolute;
+left: 83%;
+right: 0%;
+top: 30%;
+bottom: 0%;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 25px;
+	
+}
+
+#buton2
+{
+position: absolute;
+left: 90%;
+right: 0%;
+top: 30%;
+bottom: 0%;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 25px;
+	
+}*/
+.height {
+	height: 45px;
+}
+
+.navbar a {
+
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 35px;
+	color: #06114F;
+	padding: 12px;
+	text-decoration: none;
+
+}
+
+.logo {
+	width: auto;
+	padding: 12px;
+}
+
+.logo img {
+
+	width: 128px;
+	height: 128px;
+	left: 45px;
+	top: 50px;
+}
+
+.navbar_holder {
+	background-color: #F5F5F5;
+	height: 200px;
+}
+
+.section {
+	height: 100vh;
+	padding: 20px;
+	width: 100vw;
+}
+
+#s1 {
+
+	background-color: #F5F5F5;
+	display: flex;
+	justify-content: center;
+	height: 647px;
+
+
+}
+
+/*.memeitimg{
+	position: absolute;
+width: 647px;
+height: 647px;
+left: 694px;
+top: 78px;
+
+
+
+}*/
+.welcome_text {
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+.aligner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#s1 p {
+
+
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 23px;
+    text-align: center;
+	color: #252F65;
+	width: 535px;
+
+}
+
+#s1 h2 {
+
+	width: 670px;
+	text-align: center;
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 43px;
+	line-height: 121.1%;
+	color: #252F65;
+	margin: 0;
+}
+button{
+	background: #6F3096;
+border-radius: 5px;
+}
+.upmeme{
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.button{
+	padding: 20px;
+}
+
+#s2 {
+	background-color: #9027c4;
+}
+
+footer {
+	background-color: #110d4a;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 75px;
+	border-top: 1px solid #041530;
+}
+
+footer p {
+	color: white;
+	padding: 10px;
+}
